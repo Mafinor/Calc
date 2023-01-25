@@ -55,7 +55,7 @@ public class Calculator { // class declaration
         }
         int result = 0;
         int previous = 0;
-        for(int i = s.length()-1; i>=0;i--) {
+        for(int i = s.length()-1; i>=0; i--) {
             int current = map.get(s.charAt(i));
             if(current < previous) {
                 result -= current;
